@@ -57,17 +57,14 @@ nav button{
 
 .contimg{
     display: flex;
-    flex-direction: row;    
-}
-
-.contimages{
-    
+    flex-direction: row;
+    justify-content: space-around;    
     padding: 10px;
 }
 
-.contimages img{
-    height: 200px;
-    width: 200px;
+.contimg img{
+    height: 250px;
+    width: 250px;
     border: 2px solid white;
     border-radius: 10px;
 }
