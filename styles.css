@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 body{
     margin: 0;
@@ -48,7 +55,6 @@ nav button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: #3f235c79;
 }
 #about h1{
@@ -58,8 +64,8 @@ nav button{
 .contimg{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
     padding: 10px;
+    justify-content: space-between;
 }
 
 .contimg img{
@@ -67,6 +73,55 @@ nav button{
     width: 250px;
     border: 2px solid white;
     border-radius: 10px;
+    margin-right: 50px;
 }
+
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 25px;
+    margin-top: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: #3f235c79;
+    border-radius: 25px;
+    padding: 40px;
+    font-size: 15px;
+}
+
+.cartao button{
+    background-color: #FFFF00;
+    width: 60px;
+    height: 35px;
+    border-radius: 15px;
+}
+.cartao span{
+    color: #FFFF00;
+    font-size: 50px;
+    border: 2px solid #FFFF00;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+/* .card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
 
 
