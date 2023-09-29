@@ -92,7 +92,6 @@ nav button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     margin: 25px;
     margin-top: 10px;
     width: 250px;
@@ -117,11 +116,82 @@ nav button{
     padding: 15px;
 }
 
-/* .card1{
+#premios{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f235ce5;
+    padding: 30px;
+}
+#premios h1{
+    font-size: 70px;
+}
+
+.pre-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #7043a1e5;
+    width: 725px;
+    height: 125px;
+    border-radius: 15px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.pcard1 {
+    height: 150px;
+}
+
+.pcard1 span{
+    color: yellow;
+    font-size: 50px;
+}
+
+.pcard2 span{
+    font-size: 35px;
+}
+
+.pcard3 span {
+    font-size: 35px;
+    color: green;
+}
+
+#talk{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-} */
+    align-items: center;
+}
 
+#talk h1{
+    font-size: 80px;
+}
+
+.both{
+    display: flex;
+    flex-direction: row;
+}
+
+.orça{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    background-color: #3f235c79;
+    border-radius: 20px;
+
+}
+
+#nome {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrong {
+    display: flex;
+}
 
