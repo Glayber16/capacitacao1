@@ -17,6 +17,7 @@ body{
 
 }
 
+
 nav {
     color: white;
     display: flex;
@@ -26,30 +27,33 @@ nav {
     justify-content: space-around;
     padding: 10px;
 }
+nav form{
+    display: flex;
+}
+
 nav a{
     font-family: 'Oswald', sans-serif;
+    
 }
 nav h2 {
     font-family: 'Ephesis', cursive;
 }
-nav img{
-    width: 13px;
-    height: 13px;
-}
+
 nav button{
     border-radius: 8px;
-    width: 35px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
+}
+
+.navtext a{
+    padding: 30px;
 }
 #search{
-    width: 450px;
-    height: 36px;
-    border-radius: 10px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
 }
-#navtext a{
-    margin: 30px;
 
-}
 
 #about{
     display: flex;
@@ -178,20 +182,84 @@ nav button{
 .orça{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 450px;
     width: 600px;
     background-color: #3f235c79;
     border-radius: 20px;
+    margin: 40px;
+    margin-top: 60px;
+}
 
+.orça form{
+    padding: 20px;
 }
 
 #nome {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    height: 25px;
+    width: 250px;
 }
 
 #wrong {
     display: flex;
 }
 
+
+.orça button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF00;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+footer{
+    background-color: #3f235ce5;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+#pezinho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 30px;
+}
+
+footer h2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+footer input{
+    width: 80px;
+}
+
+footer a{
+    color: white;
+}
+
+.ftext{
+    display: flex;
+    flex-direction: column;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
